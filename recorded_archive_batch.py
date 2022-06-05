@@ -31,7 +31,7 @@ class Mysqlhandler:
 
 
     def __enter__(self):
-        self.__init__()
+        return self
 
 
     def __exit__(self, exc_type, exc_value, traceback):
